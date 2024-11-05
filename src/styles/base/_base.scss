@@ -1,0 +1,47 @@
+@use "../abstracts/variables" as var;
+@use "../abstracts/mixins" as mixins;
+
+@font-face {
+	font-family: "Hanken Grotesk Variable";
+	src: url("@/assets/fonts/HankenGrotesk-VariableFont_wght.woff2") format("woff2");
+	font-weight: 100 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+body {
+	background-color: var.$color-white-blue;
+	color: var.$color-white;
+	font-family: var.$font-primary;
+	font-weight: var.$fw-medium;
+	font-size: var.$fs-small;
+	line-height: var.$line-height-regular;
+
+	min-height: 100vh;
+	@include mixins.flex-center;
+}
+
+main {
+	background-color: var.$color-white;
+	border-radius: var.$spacing-l;
+	box-shadow: var.$drop-shadow-2;
+
+	max-width: min(80%, 736px);
+	margin: 0 auto;
+	display: flex;
+
+	@media screen and (max-width: var.$bp-small) {
+		flex-direction: column;
+		max-width: min(90%, 46rem);
+	}
+
+	@media screen and (max-width: var.$bp-extra-small) {
+		max-width: 100%;
+		min-height: 100vh;
+		border-radius: 0;
+	}
+
+	&:hover {
+		box-shadow: var.$drop-shadow-1;
+	}
+}

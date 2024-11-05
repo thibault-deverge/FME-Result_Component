@@ -1,0 +1,46 @@
+@use "@/styles/abstracts/variables" as var;
+
+.item {
+	padding: var.$spacing-s;
+	border-radius: 12px;
+	display: flex;
+	gap: var.$spacing-xs;
+
+	@media screen and (max-width: var.$bp-small) {
+		font-size: var.$fs-extra-small;
+	}
+
+	& p:last-child {
+		color: rgba(var.$color-dark-navy, 0.5);
+		font-weight: var.$fw-bold;
+		margin-left: auto;
+
+		@media screen and (max-width: var.$bp-small) {
+			font-size: var.$fs-extra-small;
+		}
+
+		& span {
+			color: var.$color-dark-navy;
+		}
+	}
+}
+
+.reaction {
+	background-color: rgba(var.$color-red, 0.05);
+	color: var.$color-red;
+}
+
+.memory {
+	background-color: rgba(var.$color-yellow, 0.05);
+	color: var.$color-yellow;
+}
+
+.verbal {
+	background-color: rgba(var.$color-green, 0.05);
+	color: var.$color-green;
+}
+
+.visual {
+	background-color: rgba(var.$color-blue, 0.05);
+	color: var.$color-blue;
+}

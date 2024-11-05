@@ -1,0 +1,48 @@
+// Colors
+$gradient-1: linear-gradient(to bottom, #7755ff 0%, #2f2ce9 100%);
+$gradient-2: linear-gradient(to bottom, #4d21c9 0%, rgba(#2521c9, 0) 100%);
+$color-dark-navy: #303b59;
+$color-blue: #1125d6;
+$color-white-blue: rgba($color-blue, 0.05);
+$color-light-blue: #cac9ff;
+$color-very-light-blue: #ecf2ff;
+$color-yellow: #ffb21e;
+$color-white-yellow: rgba($color-yellow, 0.05);
+$color-green: #00bb8f;
+$color-white-green: rgba($color-green, 0.05);
+$color-red: #ff5555;
+$color-white-red: rgba($color-red, 0.05);
+$color-white: #fff;
+
+// Typography
+$font-primary: "Hanken Grotesk", sans-serif;
+$fw-medium: 500;
+$fw-bold: 700;
+$fw-extra-bold: 900;
+$line-height-small: 1;
+$line-height-regular: 1.5;
+
+// Font-size
+$fs-extra-small: 1rem;
+$fs-small: 1.125rem;
+$fs-medium: 1.5rem;
+$fs-large: 2rem;
+$fs-extra-large: 3.5rem;
+$fs-huge: 4.5rem;
+
+// Effects
+$drop-shadow-1: 0 30px 60px 0 rgba(#2d6cec, 0.15);
+$drop-shadow-2: 0 4px 4px 0 rgba(#000, 0.25);
+
+// Breakpoints
+$bp-small: 47.125rem;
+$bp-extra-small: 28.125rem;
+
+// Spacing
+$spacing-xxs: 0.5rem;
+$spacing-xs: 0.75rem;
+$spacing-s: 1rem;
+$spacing-m: 1.5rem;
+$spacing-l: 2rem;
+$spacing-xl: 2.375rem;
+$spacing-xxl: 2.5rem;
