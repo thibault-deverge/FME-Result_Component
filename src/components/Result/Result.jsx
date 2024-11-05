@@ -20,7 +20,7 @@ function Result({ data }) {
 				<p>{averageRate.toFixed(0)}</p>
 				<p>of 100</p>
 			</div>
-			<div d>
+			<div>
 				<p className={styles.grade}>{message}</p>
 				<p className={styles.performance}>
 					Your performance exceeds{" "}
