@@ -4,8 +4,8 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
-- [Live site URL](https://your-live-site-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/result-summary-component---solution-mUIVR2N77J)
+- [Live site URL](https://fme-result-component.vercel.app/)
 
 ## My process
 

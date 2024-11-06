@@ -15,7 +15,7 @@ function Result({ data }) {
 
 	return (
 		<div className={styles.result}>
-			<h2>Your Result</h2>
+			<h1>Your Result</h1>
 			<div className={styles.resultStats}>
 				<p>{averageRate.toFixed(0)}</p>
 				<p>of 100</p>
