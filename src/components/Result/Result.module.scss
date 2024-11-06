@@ -25,6 +25,7 @@
 		color: var.$color-light-blue;
 		font-size: var.$fs-medium;
 		font-weight: var.$fw-bold;
+		line-height: 1.2;
 
 		@media screen and (max-width: var.$bp-extra-small) {
 			font-size: var.$fs-small;
@@ -57,7 +58,7 @@
 		}
 
 		p:last-child {
-			color: var.$color-light-blue;
+			color: rgba(var.$color-light-blue, 0.5);
 			font-size: var.$fs-small;
 			font-weight: var.$fw-bold;
 
